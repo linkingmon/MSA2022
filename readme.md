@@ -9,7 +9,7 @@
 |  HW4  |              |
 
 ## File description
-* HWx/HWx_y.m: Problem y in homework x
+* HWx/HWx_y.m: MATLAB code for problem y in homework x
 * HWx/MSA_HWx_Problem.pdf: Problem of homework x
 * HWx/HWx_Answer.pdf: Anwser to homework x
 * HWx/readme.txt: Correction to homework x

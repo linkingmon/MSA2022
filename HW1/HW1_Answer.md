@@ -132,4 +132,5 @@ $
 <img src="./gen_fig/HW1_7d.jpg" width=70%>
 
 **e.**
+Notice that the triangular is normalized for un-biased estimation.
 <img src="./gen_fig/HW1_7e.jpg" width=70%>
