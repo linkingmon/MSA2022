@@ -4,7 +4,7 @@
 | Title |                  Related topics                   |
 |:-----:|:-------------------------------------------------:|
 |  HW1  | Nonparametric methods, Periodogram, Blackman-Tukey, Bartlett-Welch |
-|  HW2  |                |
+|  HW2  | Harmonic model, MVDR, MUSIC               |
 |  HW3  |                                   |
 |  HW4  |              |
 
