@@ -5,8 +5,8 @@
 |:-----:|:-------------------------------------------------:|
 |  HW1  | Nonparametric methods, Periodogram, Blackman-Tukey, Bartlett-Welch |
 |  HW2  | Harmonic model, MVDR, MUSIC               |
-|  HW3  |                                   |
-|  HW4  |              |
+|  HW3  |   Kruskal rank, spark, ESPRIT                                 |
+|  Final  |  Orthogonal Matching Pursuit,  Compressive Sampling Matching Pursuit, Iterative Hard Threshold, Hard Thresholding Pursuit           |
 
 ## File description
 * HWx/HWx_y.m: MATLAB code for problem y in homework x

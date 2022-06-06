@@ -36,10 +36,15 @@ Also, by the triangular inequality, $\sum_i|u_i^*v_i|\geq{}|\sum_iu_i^*v_i|=|\ma
 The inequality $|\mathbf{u}^H\mathbf{v}|\leq{}||\mathbf{u}||_p||\mathbf{v}||_q$ then holds due to $(1)$ and $(2)$
 
 **b.**
-The equality holds for the Young's Inequality iff $\gamma^p=\delta^q$, that is $(\frac{|u_i^*|}{||\mathbf{u}||_p})^p=(\frac{|v_i|}{||\mathbf{v}||_q})^q$
+<!-- The equality holds for the Young's Inequality iff $\gamma^p=\delta^q$, that is $(\frac{|u_i^*|}{||\mathbf{u}||_p})^p=(\frac{|v_i|}{||\mathbf{v}||_q})^q$
 $\leftrightarrow{}|u_i|^p(||\mathbf{v}||_q)^q=|u_i^*|^p(||\mathbf{v}||_q)^q=|v_i|^q(||\mathbf{u}||_p)^p$
 Let $\alpha=(||\mathbf{v}||_q)^q$ and $\beta=(||\mathbf{u}||_p)^p$
-$\leftrightarrow{}\alpha|u_i|^p=\beta|v_i|^q$
+$\leftrightarrow{}\alpha|u_i|^p=\beta|v_i|^q$ -->
+$|\mathbf{u}^H\mathbf{v}|=|\sum_iu_i^*v_i|=|\sum_i\frac{|v_i|^q}{v_i||\mathbf{v}||_q^{q-1}}v_i|=|\sum_i\frac{|v_i|^q}{||\mathbf{v}||_q^{q-1}}|=|\frac{\sum_i|v_i|^q}{||\mathbf{v}||_q^{q-1}}|=||\mathbf{v}||_q$
+Also, 
+$||\mathbf{u}||_p=\sqrt[p]{\sum_i|u_i|^p}=\sqrt[p]{\sum_i[\frac{|v_i|^q}{|v_i|||\mathbf{v}||_q^{q-1}}]^p}=\sqrt[p]{\sum_i\frac{|v_i|^{pq}}{|v_i|^p||\mathbf{v}||_q^{pq-p}}}=\sqrt[p]{\sum_i\frac{|v_i|^{p+q}}{|v_i|^p||\mathbf{v}||_q^{q}}}=\sqrt[p]{\sum_i\frac{|v_i|^{q}}{||\mathbf{v}||_q^{q}}}=\sqrt[p]{\frac{||\mathbf{v}||_q^{q}}{||\mathbf{v}||_q^{q}}}=1$
+Therefore,
+$|\mathbf{u}^H\mathbf{v}|=||\mathbf{u}||_p||\mathbf{v}||_q$ when the condition holds.
 
 ### Problem 4
 **a.**
